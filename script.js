@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   button.addEventListener("click", () => {
     const now = new Date().toLocaleString();
-    output.textContent = `You clicked the click-click-clicky button at!! ${now}`;
+    output.textContent = `You have now clicked on the click-click-clicky button at!! ${now}`;
   });
 });
