@@ -11,5 +11,5 @@ jobs:
         uses: gacts/purge-jsdelivr-cache@v1
         with:
           url: |
-            https://cdn.jsdelivr.net/gh/T3s0/Testing-1@main/style.css
-            https://cdn.jsdelivr.net/gh/T3s0/Testing-1@main/script.js
+            https://cdn.jsdelivr.net/gh/T3s0/Testing-1@refs/heads/main/style.css
+            https://cdn.jsdelivr.net/gh/T3s0/Testing-1@refs/heads/main/script.js
