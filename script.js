@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const button = document.getElementById("click-click-clicky button");
+  const button = document.getElementById("clickMe");
   const output = document.getElementById("output");
 
-  button.addEventListener("click-click-clicky button", () => {
+  button.addEventListener("clickMe", () => {
     const now = new Date().toLocaleString();
     output.textContent = `You clicked the click-click-clicky button at ${now}`;
   });
