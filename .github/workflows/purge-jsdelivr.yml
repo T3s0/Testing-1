@@ -1,8 +1,7 @@
-name: Purge jsDelivr cache
+name: Purge jsDelivr (manual)
 
 on:
-  push:
-    branches: [ main ]  # run on every push to main
+  workflow_dispatch:   # enables the "Run workflow" button in Actions
 
 jobs:
   purge:
@@ -12,6 +11,6 @@ jobs:
         uses: gacts/purge-jsdelivr-cache@v1
         with:
           url: |
+            https://cdn.jsdelivr.net/gh/T3s0/Testing-1@main/index.html
             https://cdn.jsdelivr.net/gh/T3s0/Testing-1@main/style.css
             https://cdn.jsdelivr.net/gh/T3s0/Testing-1@main/script.js
-            https://cdn.jsdelivr.net/gh/T3s0/Testing-1@main/index.html
